@@ -1,0 +1,77 @@
+.expense-tracker {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #023047;
+  margin-bottom: 20px;
+}
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.expense-tracker h1 {
+  font-size: 40px;
+}
+.expense-tracker button {
+  margin-left: 10px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-photo {
+  width: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.button-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+}
+.sign-out-button {
+  border: none;
+  margin-top: 30px;
+  width: 80px;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.sign-out-button:hover {
+  background: #3cb0fd;
+
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.transactions {
+  margin-top: 30px;
+  padding-left: 10px;
+  margin: auto;
+  width: 800px;
+  height: 350px;
+  overflow: auto;
+  border: 1px solid #023047;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.add-transaction {
+  display: flex;
+  gap: 10px;
+}
